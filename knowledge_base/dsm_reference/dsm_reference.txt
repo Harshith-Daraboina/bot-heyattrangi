@@ -1,0 +1,118 @@
+DSM-5-TR CLINICAL REFERENCE (SUMMARY)
+------------------------------------
+
+IMPORTANT:
+This content summarizes DSM-5-TR diagnostic frameworks for educational and screening purposes only.
+It is not a diagnostic tool and should not replace professional evaluation.
+
+--------------------------------------------------
+ATTENTION-DEFICIT / HYPERACTIVITY DISORDER (ADHD)
+--------------------------------------------------
+
+ADHD is a neurodevelopmental condition characterized by persistent patterns of inattention and/or
+hyperactivity-impulsivity that interfere with functioning or development.
+
+CORE SYMPTOM DOMAINS:
+1. Inattention:
+   - Difficulty sustaining attention
+   - Careless mistakes
+   - Difficulty organizing tasks
+   - Forgetfulness
+   - Easily distracted
+
+2. Hyperactivity / Impulsivity:
+   - Excessive movement or fidgeting
+   - Difficulty remaining seated
+   - Talking excessively
+   - Interrupting others
+   - Difficulty waiting turn
+
+DSM-5-TR CRITERIA SUMMARY:
+- Several symptoms must be present before age 12
+- Symptoms must be present in two or more settings (e.g., home and school/work)
+- Symptoms must cause clear functional impairment
+- Symptoms are not better explained by another mental disorder
+
+SUBTYPES:
+- Predominantly Inattentive Presentation
+- Predominantly Hyperactive/Impulsive Presentation
+- Combined Presentation
+
+--------------------------------------------------
+ANXIETY DISORDERS (GENERALIZED ANXIETY FOCUS)
+--------------------------------------------------
+
+Anxiety disorders involve excessive fear, worry, or avoidance behaviors that are disproportionate
+to actual threat and interfere with daily functioning.
+
+GENERALIZED ANXIETY FEATURES:
+- Excessive worry occurring more days than not
+- Difficulty controlling worry
+- Associated symptoms such as restlessness, fatigue, irritability, muscle tension, or sleep disturbance
+- Worry is persistent and difficult to dismiss
+
+IMPAIRMENT:
+- Anxiety must cause distress or interfere with social, occupational, or daily functioning
+
+--------------------------------------------------
+DEPRESSIVE DISORDERS
+--------------------------------------------------
+
+Depressive disorders involve persistent disturbances in mood, motivation, and cognitive functioning.
+
+CORE FEATURES:
+- Persistent low mood or loss of interest/pleasure
+- Changes in sleep, appetite, or energy
+- Feelings of worthlessness or guilt
+- Difficulty concentrating
+- Psychomotor changes
+- Thoughts of death or self-harm
+
+DURATION:
+- Symptoms typically persist for at least two weeks
+
+SEVERITY:
+- Severity is determined by symptom count, intensity, and level of functional impairment
+
+IMPORTANT SAFETY NOTE:
+- Any expression of suicidal thoughts requires immediate professional support
+
+--------------------------------------------------
+AUTISM SPECTRUM DISORDER (ASD)
+--------------------------------------------------
+
+Autism Spectrum Disorder is a neurodevelopmental condition characterized by differences in social
+communication and restricted or repetitive patterns of behavior, interests, or activities.
+
+CORE DOMAINS:
+1. Social Communication and Interaction:
+   - Differences in social reciprocity
+   - Difficulty interpreting social cues
+   - Differences in nonverbal communication
+   - Challenges developing or maintaining relationships
+
+2. Restricted and Repetitive Patterns:
+   - Repetitive behaviors or speech
+   - Strong preference for routines
+   - Intense or focused interests
+   - Sensory sensitivities
+
+DEVELOPMENTAL CONTEXT:
+- Traits are typically present from early development
+- Presentation varies widely across individuals
+
+NEURODIVERSITY NOTE:
+- Autism represents a natural variation in human neurodevelopment
+- Traits may be associated with both challenges and strengths
+- Support needs vary by individual and environment
+
+--------------------------------------------------
+IMPORTANT CLINICAL NOTES
+--------------------------------------------------
+
+- Screening tools identify patterns of traits or symptoms, not diagnoses
+- Diagnosis requires comprehensive evaluation by qualified professionals
+- Cultural, developmental, and contextual factors must be considered
+- Comorbidity between conditions is common (e.g., ADHD and anxiety)
+
+END OF REFERENCE

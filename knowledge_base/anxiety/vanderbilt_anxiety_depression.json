@@ -1,0 +1,17 @@
+{
+  "scale": "Vanderbilt Anxiety/Depression Screen",
+  "items": [
+    { "id": 41, "text": "Is fearful, anxious, or worried" },
+    { "id": 42, "text": "Afraid to try new things" },
+    { "id": 43, "text": "Feels worthless or inferior" },
+    { "id": 44, "text": "Feels guilty or blames self" },
+    { "id": 45, "text": "Feels lonely or unloved" },
+    { "id": 46, "text": "Is sad or depressed" },
+    { "id": 47, "text": "Is self-conscious or embarrassed" }
+  ],
+  "screening_rule": {
+    "positive_threshold": 2,
+    "required_positive_items": 3
+  },
+  "note": "Emotional symptom screen only; further assessment recommended if elevated."
+}

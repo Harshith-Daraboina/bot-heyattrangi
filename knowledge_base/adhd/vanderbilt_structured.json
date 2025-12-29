@@ -1,0 +1,102 @@
+{
+  "scale": "Vanderbilt ADHD Assessment Scale",
+  "response_scale": {
+    "0": "Never",
+    "1": "Occasionally",
+    "2": "Often",
+    "3": "Very Often"
+  },
+  "items": [
+    {
+      "id": 1,
+      "text": "Does not pay attention to details or makes careless mistakes",
+      "domain": "inattention"
+    },
+    {
+      "id": 2,
+      "text": "Has difficulty keepin g attention to what needs to be done",
+      "domain": "inattention"
+    },
+    {
+      "id": 3,
+      "text": "Does not seem to listen when spoken to directly",
+      "domain": "inattention"
+    },
+    {
+      "id": 4,
+      "text": "Does not follow through when given directions and fails to finish activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 5,
+      "text": "Has difficulty organizing tasks and activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 6,
+      "text": "Avoids, dislikes, or does not want to start tasks that require ongoing",
+      "domain": "inattention"
+    },
+    {
+      "id": 7,
+      "text": "Loses things necessary for tasks or activities (toys, assignments, pencils,",
+      "domain": "inattention"
+    },
+    {
+      "id": 8,
+      "text": "Is easily distracted by noises or other stimuli",
+      "domain": "inattention"
+    },
+    {
+      "id": 9,
+      "text": "Is forgetful in daily activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 10,
+      "text": "Fidgets with hands or feet or squirms in seat",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 11,
+      "text": "Leaves seat when remaining seated is expected",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 12,
+      "text": "Runs about or climbs too much when remaining seated is expected",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 13,
+      "text": "Has difficulty playing or beginning quiet play activities",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 14,
+      "text": "Is “on the go” or often acts as if “driven by a motor”",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 15,
+      "text": "T alks too much",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 16,
+      "text": "Blurts out answers before questions have been completed",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 17,
+      "text": "Has difficulty waiting his or her turn",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 18,
+      "text": "Interrupts or intrudes  in on others’ conversations and/or activities",
+      "domain": "hyperactivity"
+    }
+  ],
+  "disclaimer": "Screening tool only. Not a diagnosis."
+}
