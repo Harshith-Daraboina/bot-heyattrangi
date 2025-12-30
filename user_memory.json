@@ -47,6 +47,14 @@
     {
       "role": "assistant",
       "content": "It's nice to see you again. I sense that you might be feeling a bit overwhelmed, and I'm here to listen and support you. You mentioned earlier that you're feeling anxious, and I want to acknowledge that feeling. It takes a lot of courage to share your emotions, and I'm here to help you work through them. What's been on your mind since we last spoke?"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello again. It's nice to see you. I sense that you might be feeling a bit overwhelmed, and I'm here to listen and support you. You mentioned earlier that you're feeling anxious, and I want to acknowledge that feeling. It takes a lot of courage to share your emotions, and I'm here to help you work through them. What's been on your mind since we last spoke?"
     }
   ],
   "signals": {
