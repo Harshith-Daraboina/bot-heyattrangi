@@ -1,6 +1,11 @@
 from pathlib import Path
 
-GROQ_API_KEY = "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"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 BASE_DIR = Path(__file__).parent
 MEMORY_FILE = BASE_DIR / "data/user_memory.json"

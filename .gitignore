@@ -1,0 +1,21 @@
+# General
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+
+# Data
+data/
+user_memory.json
+
+# PDFs - Ignore all, but allow knowledge_base/pdfs
+*.pdf
+!knowledge_base/pdfs/*.pdf
+
+# Project specific
+useable_pdfs/
+raw_pdfs/
