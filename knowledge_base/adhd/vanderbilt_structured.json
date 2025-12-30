@@ -6,7 +6,7 @@
     "2": "Often",
     "3": "Very Often"
   },
-  "items": [
+  "questions": [
     {
       "id": 1,
       "text": "Does not pay attention to details or makes careless mistakes",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "text": "Has difficulty keepin g attention to what needs to be done",
+      "text": "Has difficulty keeping attention to what needs to be done",
       "domain": "inattention"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "id": 4,
-      "text": "Does not follow through when given directions and fails to finish activities",
+      "text": "Does not follow through on instructions or fails to finish activities",
       "domain": "inattention"
     },
     {
@@ -34,12 +34,12 @@
     },
     {
       "id": 6,
-      "text": "Avoids, dislikes, or does not want to start tasks that require ongoing",
+      "text": "Avoids or dislikes tasks requiring sustained mental effort",
       "domain": "inattention"
     },
     {
       "id": 7,
-      "text": "Loses things necessary for tasks or activities (toys, assignments, pencils,",
+      "text": "Loses things necessary for tasks or activities",
       "domain": "inattention"
     },
     {
@@ -64,22 +64,22 @@
     },
     {
       "id": 12,
-      "text": "Runs about or climbs too much when remaining seated is expected",
+      "text": "Runs about or climbs excessively in inappropriate situations",
       "domain": "hyperactivity"
     },
     {
       "id": 13,
-      "text": "Has difficulty playing or beginning quiet play activities",
+      "text": "Has difficulty playing or engaging in quiet activities",
       "domain": "hyperactivity"
     },
     {
       "id": 14,
-      "text": "Is “on the go” or often acts as if “driven by a motor”",
+      "text": "Is on the go or acts as if driven by a motor",
       "domain": "hyperactivity"
     },
     {
       "id": 15,
-      "text": "T alks too much",
+      "text": "Talks excessively",
       "domain": "hyperactivity"
     },
     {
@@ -89,14 +89,32 @@
     },
     {
       "id": 17,
-      "text": "Has difficulty waiting his or her turn",
+      "text": "Has difficulty waiting their turn",
       "domain": "hyperactivity"
     },
     {
       "id": 18,
-      "text": "Interrupts or intrudes  in on others’ conversations and/or activities",
+      "text": "Interrupts or intrudes on others’ conversations or activities",
       "domain": "hyperactivity"
     }
   ],
+  "scoring": {
+    "method": "symptom_count",
+    "threshold": 2
+  },
+  "severity_cutoffs": {
+    "low": [
+      0,
+      3
+    ],
+    "moderate": [
+      4,
+      5
+    ],
+    "high": [
+      6,
+      18
+    ]
+  },
   "disclaimer": "Screening tool only. Not a diagnosis."
 }

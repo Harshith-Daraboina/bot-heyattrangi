@@ -1,0 +1,54 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "It's nice to meet you. I'm here to listen and support you in any way I can. You've taken the first step by reaching out, and that takes a lot of courage. What brings you here today?"
+    },
+    {
+      "role": "user",
+      "content": "I having troubble with stress"
+    },
+    {
+      "role": "assistant",
+      "content": "It can be really overwhelming to deal with stress, and it sounds like it's been weighing on you lately. I'm here to listen and support you, and I want you to know that you're not alone in this feeling. It takes a lot of courage to acknowledge and share your struggles, so thank you for trusting me with this. Can you tell me more about what's been happening that's causing you to feel stressed, and how you've been experiencing it in your daily life?"
+    },
+    {
+      "role": "user",
+      "content": "I having troubble with stre"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems like you're still trying to express what's going on with stress, and it can be really tough to put into words. I'm here to listen and help you explore this feeling. It's okay if it's hard to talk about - we can take it one step at a time. What's the first thing that comes to mind when you think about the stress you're experiencing?"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "It's nice to see you again, and I'm glad you feel comfortable enough to say hello. I remember we were just starting to talk about the stress you're experiencing, and I want you to know that I'm still here to listen and support you. If you're ready, we can pick up where we left off, or we can start fresh - whatever feels most comfortable for you."
+    },
+    {
+      "role": "user",
+      "content": "I am so stressed"
+    },
+    {
+      "role": "assistant",
+      "content": "I can feel the weight of that stress in your words, and I'm so sorry you're having to carry it. It takes a lot of courage to acknowledge and express your emotions, so thank you for trusting me with this. It sounds like the stress is really overwhelming you right now. What's happening in this moment that's making you feel like you're at your limit with stress?"
+    }
+  ],
+  "signals": {
+    "stress": 1,
+    "fatigue": 0,
+    "low_mood": 0,
+    "anxiety": 0,
+    "sleep_issues": 0,
+    "self_worth": 0,
+    "attention": 0
+  },
+  "report_offered": false
+}
