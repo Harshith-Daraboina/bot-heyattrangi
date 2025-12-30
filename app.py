@@ -5,6 +5,7 @@ from config import GROQ_API_KEY, GROQ_MODEL
 from memory import load_memory, save_memory, reset_memory
 from signals import extract_signals
 from report import generate_report
+from pdf_retriever import pdf_retriever
 
 client = Groq(api_key=GROQ_API_KEY)
 
@@ -25,11 +26,17 @@ Conversation principles:
 - If the user expresses trust or vulnerability, deepen the conversation
 - Do not get stuck in reassurance loops
 
+
 Expression Instructions:
 - You have a set of facial expressions: EMPATHETIC, NEUTRAL, REFLECTIVE, SAFETY, STRESSED, TIRED.
-- Choose the expression that best matches the TONE of your response.
+- Choose the expression based on the USER'S state:
+  * TIRED: If user mentions sleep, exhaustion, fatigue, or low energy.
+  * STRESSED: If user mentions panic, anxiety, overwhelm, pressure, or fear.
+  * SAFETY: Use ONLY if the user mentions self-harm, severe crisis, or specific safety risks.
+  * REFLECTIVE: If user is thinking, wondering, asking a question, or exploring a complex idea.
+  * EMPATHETIC: If user is sad, grieving, hurt, or needs comfort.
+  * NEUTRAL: For greetings, simple acknowledgments, or when no specific strong emotion is present.
 - At the very end of your response, strictly output the tag: [EXPRESSION: LISTED_EXPRESSION_NAME].
-- Example: "I'm hearing that you are in a lot of pain. [EXPRESSION: EMPATHETIC]"
 
 You are NOT:
 - Diagnosing
@@ -74,10 +81,21 @@ def generate_reply(user_text, memory):
             "After validating, gently ask one open-ended question to help them explore it."
         )
 
+    # PDF RAG Retrieval
+    pdf_context = pdf_retriever.retrieve(user_text)
+    knowledge_context = ""
+    if pdf_context:
+        knowledge_context = (
+            f"Background mental health knowledge (DO NOT quote directly):\n"
+            f"{' '.join(pdf_context)}\n\n"
+            f"Use this to guide the conversation naturally. Ask thoughtful, human questions."
+        )
+
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "system", "content": f"Observed emotional signals: {signal_summary}"},
         {"role": "system", "content": f"Recent conversation: {recent}"},
+        {"role": "system", "content": knowledge_context},
         {"role": "system", "content": extra_instruction},
         {"role": "user", "content": user_text}
     ]
@@ -91,7 +109,6 @@ def generate_reply(user_text, memory):
 
 
     full_response = completion.choices[0].message.content
-    print(f"DEBUG: Full Response: {full_response!r}")
     
     # Extract expression tag
     expression = "NEUTRAL"
@@ -104,7 +121,7 @@ def generate_reply(user_text, memory):
         # Remove tag from text
         clean_text = full_response.replace(match.group(0), "").strip()
         
-    print(f"DEBUG: Extracted Expression: {expression}")
+    # Validation fallback
     if expression not in EXPRESSION_MAP:
         expression = "NEUTRAL"
 
@@ -188,4 +205,6 @@ with gr.Blocks(title="Hey Attrangi") as demo:
         
     reset_btn.click(on_reset, None, [chatbot, report_out, bot_avatar])
 
-demo.launch(theme=theme)
+
+if __name__ == "__main__":
+    demo.launch(theme=theme)
