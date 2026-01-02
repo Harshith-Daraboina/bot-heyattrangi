@@ -16,6 +16,8 @@ RUN mkdir -p vector_store
 
 # Set permissions (Hugging Face runs as user 1000)
 RUN useradd -m -u 1000 user
+RUN chown -R user:user /app
+
 USER user
 ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH
