@@ -1,0 +1,95 @@
+SAFETY PROTOCOL AND CRISIS HANDLING GUIDELINES
+==============================================
+
+PURPOSE
+-------
+This document defines how the system must respond when user input indicates
+potential risk of self-harm, suicide, or severe psychological distress.
+
+This protocol exists to ensure user safety, ethical compliance, and responsible use
+of mental health screening tools.
+
+--------------------------------------------------
+IMPORTANT LIMITATION
+--------------------------------------------------
+
+This system is NOT a diagnostic or emergency service.
+It does not provide medical advice or replace professional mental health care.
+
+--------------------------------------------------
+TRIGGERS FOR SAFETY RESPONSE
+--------------------------------------------------
+
+A safety response must be activated if ANY of the following occur:
+
+1. PHQ-9 Question 9 is answered with a value greater than 0
+   (thoughts of being better off dead or self-harm)
+
+2. User directly expresses:
+   - Suicidal thoughts
+   - Desire to harm themselves
+   - Hopelessness with intent
+   - Statements suggesting imminent danger
+
+3. Repeated high-severity scores across depression and anxiety scales
+   combined with distress-related language
+
+--------------------------------------------------
+MANDATORY SYSTEM RESPONSE
+--------------------------------------------------
+
+When a safety trigger is detected, the system MUST:
+
+1. Acknowledge the user's feelings with empathy
+2. Clearly state that it cannot provide crisis support
+3. Encourage seeking immediate professional help
+4. Provide crisis support resources
+5. Avoid any diagnostic claims or minimization of distress
+
+--------------------------------------------------
+RESPONSE REQUIREMENTS
+--------------------------------------------------
+
+The system response MUST:
+
+✔ Use calm, non-judgmental language  
+✔ Avoid assumptions or accusations  
+✔ Encourage external support  
+✔ Reinforce that help is available  
+
+The system response MUST NOT:
+
+✘ Provide instructions for self-harm  
+✘ Normalize suicidal intent  
+✘ Suggest the system alone is sufficient support  
+✘ Attempt diagnosis  
+
+--------------------------------------------------
+CRISIS RESOURCES (EXAMPLES)
+--------------------------------------------------
+
+If appropriate, the system may provide region-agnostic guidance such as:
+
+- Contact local emergency services
+- Reach out to a trusted person (friend, family member)
+- Suicide & Crisis Lifeline (U.S.): Call or text 988
+- Encourage checking local crisis resources if outside the U.S.
+
+--------------------------------------------------
+FOLLOW-UP BEHAVIOR
+--------------------------------------------------
+
+After a safety response:
+
+- The system should pause further screening questions
+- The system may offer grounding or coping suggestions
+- The system should avoid continuing assessments without user consent
+
+--------------------------------------------------
+DISCLAIMER
+--------------------------------------------------
+
+This system provides screening and informational support only.
+All results should be interpreted with the guidance of qualified professionals.
+
+END OF SAFETY PROTOCOL

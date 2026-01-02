@@ -1,0 +1,16 @@
+{
+  "scale": "Vanderbilt Conduct Screen",
+  "items": [
+    { "id": 27, "text": "Bullies or intimidates others" },
+    { "id": 28, "text": "Starts physical fights" },
+    { "id": 29, "text": "Lies to avoid trouble" },
+    { "id": 30, "text": "Is truant from school" },
+    { "id": 31, "text": "Is physically cruel to people" },
+    { "id": 32, "text": "Has stolen things of value" }
+  ],
+  "screening_rule": {
+    "positive_threshold": 2,
+    "required_positive_items": 3
+  },
+  "warning": "Elevated scores suggest need for professional evaluation."
+}

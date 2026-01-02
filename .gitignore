@@ -1,0 +1,24 @@
+# General
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+
+# Data
+data/
+user_memory.json
+
+# PDFs & raw data
+*.pdf
+raw_pdfs/
+useable_pdfs/
+knowledge_base/pdfs/
+
+# Vector stores / indexes
+*.index
+vector_store/
+.gradio/
