@@ -1,7 +1,10 @@
 import json
 from pathlib import Path
 
-MEMORY_FILE = Path("user_memory.json")
+# Use data directory for persistence (better for Docker/HF permissions)
+DATA_DIR = Path("data")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+MEMORY_FILE = DATA_DIR / "user_memory.json"
 
 def new_memory():
     return {

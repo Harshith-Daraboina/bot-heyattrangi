@@ -8,3 +8,5 @@ data/
 user_memory.json
 *.pyc
 *.pyo
+.nicegui
+
