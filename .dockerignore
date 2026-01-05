@@ -1,0 +1,10 @@
+.env
+__pycache__
+vector_store
+.git
+.gitignore
+.dockerignore
+data/
+user_memory.json
+*.pyc
+*.pyo

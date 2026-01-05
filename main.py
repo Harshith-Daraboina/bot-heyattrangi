@@ -5,6 +5,7 @@ from config import GROQ_API_KEY, GROQ_MODEL
 from memory import load_memory, save_memory, reset_memory
 from signals import extract_signals
 from report import generate_report
+from summary_db import init_db, save_summary
 import pdf_retriever as pdf_retriever_module
 import pdf_embedder
 import importlib
@@ -25,6 +26,9 @@ def get_retriever():
 
 retriever = get_retriever()
 client = Groq(api_key=GROQ_API_KEY)
+
+# Initialize Database
+init_db()
 
 EXPRESSION_MAP = {
     "EMPATHETIC": "public/bot_expressions/EMPATHETIC.jpg",
@@ -210,7 +214,12 @@ async def main_page():
         with ui.column().classes('w-full gap-2'):
             async def generate_summary():
                 ui.notify('Generating summary...', color='info')
-                report = await run.io_bound(generate_report, app.storage.user['memory'])
+                memory = app.storage.user['memory']
+                report = await run.io_bound(generate_report, memory)
+                
+                # Save to DB
+                await run.io_bound(save_summary, memory["conversation"], report)
+                
                 with ui.dialog() as dialog, ui.card().classes('bg-slate-800 text-slate-100 w-full max-w-2xl'):
                     ui.label('Mental Health Summary').classes('text-xl font-bold mb-4')
                     ui.textarea(value=report).props('readonly autogrow').classes('w-full bg-slate-900 border-slate-700 rounded-lg p-2')
