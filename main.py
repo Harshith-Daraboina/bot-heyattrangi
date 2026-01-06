@@ -59,6 +59,13 @@ Core Style Rules
 - Do NOT reintroduce yourself once the conversation has started
 - If the user says “hi” again mid-conversation, treat it as continuation, not a restart
 
+IMPORTANT:
+You must never explain concepts, symptoms, or psychology unless the user explicitly asks.
+When emotions are present, prioritize presence over explanation.
+
+You must not repeat the same emotional acknowledgment twice in a row.
+If a similar emotion appears again, respond differently.
+
 ────────────────────────
 How to Respond
 ────────────────────────
@@ -125,6 +132,10 @@ def update_stage(memory):
     else:
         memory["stage"] = "opening"
 
+def compress_context(chunks, max_chars=600):
+    joined = " ".join(chunks)
+    return joined[:max_chars]
+
 def generate_reply_sync(user_text, memory):
     # No delay as requested
     
@@ -132,7 +143,12 @@ def generate_reply_sync(user_text, memory):
     update_stage(memory)
 
     recent = memory["conversation"][-6:]
-    pdf_context = retriever.retrieve(user_text) if retriever else []
+    
+    # Skip retrieval for very short inputs (greetings) to prevent RAG noise
+    if len(user_text.split()) > 3:
+        pdf_context = retriever.retrieve(user_text) if retriever else []
+    else:
+        pdf_context = []
 
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
@@ -141,11 +157,13 @@ def generate_reply_sync(user_text, memory):
     ]
 
     if pdf_context:
+        pdf_context = compress_context(pdf_context)
         messages.append({
             "role": "system",
             "content": (
-                "Background mental health knowledge (use gently, do not quote):\n"
-                + "\n".join(pdf_context)
+                "Internal reference material (DO NOT quote, summarize, or explain directly).\n"
+                "Use only to guide tone, emotional pacing, and choice of questions.\n\n"
+                + pdf_context
             )
         })
 
@@ -153,13 +171,21 @@ def generate_reply_sync(user_text, memory):
         "role": "system",
         "content": "If the user names a new emotion, respond in a new way."
     })
+    
+    if memory['stage'] == 'opening' and len(recent) == 0:
+        messages.append({
+            "role": "system",
+            "content": "This is the start. Vary your greeting. Do NOT simply say 'It's nice to meet you'."
+        })
 
     messages.append({"role": "user", "content": user_text})
 
     completion = client.chat.completions.create(
         model=GROQ_MODEL,
         messages=messages,
-        temperature=0.85
+        temperature=0.85,
+        stream=False,
+        max_tokens=350
     )
 
     full = completion.choices[0].message.content
@@ -296,6 +322,7 @@ async def main_page():
             ui.button(icon='send', on_click=send_message).props('round unelevated').classes('bg-blue-600 hover:bg-blue-500 text-white shadow-md')
 
 import os
+
 ui.run(
     title="Hey Attrangi", 
     dark=True, 

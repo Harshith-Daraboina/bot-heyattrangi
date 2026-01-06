@@ -14,9 +14,9 @@ user_memory.json
 
 # PDFs & raw data
 *.pdf
-raw_pdfs/
-useable_pdfs/
-knowledge_base/pdfs/
+# raw_pdfs/
+# useable_pdfs/
+# knowledge_base/pdfs/
 
 # Vector stores / indexes
 *.index

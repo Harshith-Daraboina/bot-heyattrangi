@@ -6,23 +6,27 @@ import json
 import numpy as np
 import os
 
-PDF_DIR = Path("knowledge_base/pdfs")
+PDF_DIR = Path("knowledge_base")
 INDEX_DIR = Path("vector_store")
 INDEX_DIR.mkdir(exist_ok=True)
 
 MODEL = SentenceTransformer("all-MiniLM-L6-v2")
 
-def extract_text_from_pdf(pdf_path):
-    print(f"Extracting text from: {pdf_path}")
+def extract_text(file_path):
+    print(f"Extracting text from: {file_path}")
     text = ""
     try:
-        reader = PdfReader(pdf_path)
-        for page in reader.pages:
-            extracted = page.extract_text()
-            if extracted:
-                text += extracted + "\n"
+        if file_path.suffix.lower() == ".pdf":
+            reader = PdfReader(file_path)
+            for page in reader.pages:
+                extracted = page.extract_text()
+                if extracted:
+                    text += extracted + "\n"
+        elif file_path.suffix.lower() == ".txt":
+            with open(file_path, "r", encoding="utf-8") as f:
+                text = f.read()
     except Exception as e:
-        print(f"Error reading {pdf_path}: {e}")
+        print(f"Error reading {file_path}: {e}")
     return text
 
 def chunk_text(text, chunk_size=400, overlap=50):
@@ -38,24 +42,24 @@ def build_index():
     all_chunks = []
     metadata = []
 
-    files = list(PDF_DIR.glob("*.pdf"))
+    files = sorted(list(PDF_DIR.rglob("*.pdf")) + list(PDF_DIR.rglob("*.txt")))
     if not files:
-        print(f"No PDFs found in {PDF_DIR}")
+        print(f"No PDF or TXT files found in {PDF_DIR}")
         return
 
-    for pdf in files:
-        text = extract_text_from_pdf(pdf)
+    for file_path in files:
+        text = extract_text(file_path)
         if not text:
-            print(f"No text extracted from {pdf.name}")
+            print(f"No text extracted from {file_path.name}")
             continue
             
         chunks = chunk_text(text)
-        print(f"  > {pdf.name}: {len(chunks)} chunks")
+        print(f"  > {file_path.name}: {len(chunks)} chunks")
 
         for chunk in chunks:
             all_chunks.append(chunk)
             metadata.append({
-                "source": pdf.name
+                "source": file_path.name
             })
 
     if not all_chunks:
@@ -78,7 +82,7 @@ def build_index():
         indent=2
     )
 
-    print(f"✅ Embedded {len(all_chunks)} chunks from {len(files)} PDFs")
+    print(f"✅ Embedded {len(all_chunks)} chunks from {len(files)} files")
 
 if __name__ == "__main__":
     build_index()
