@@ -1,0 +1,246 @@
+DSM-5-TR CLINICAL REFERENCE (SUMMARY)
+------------------------------------
+
+IMPORTANT:
+This content summarizes DSM-5-TR diagnostic frameworks for educational and screening purposes only.
+It is not a diagnostic tool and should not replace professional evaluation.
+
+--------------------------------------------------
+ATTENTION-DEFICIT / HYPERACTIVITY DISORDER (ADHD)
+--------------------------------------------------
+
+ADHD is a neurodevelopmental condition characterized by persistent patterns of inattention and/or
+hyperactivity-impulsivity that interfere with functioning or development.
+
+CORE SYMPTOM DOMAINS:
+1. Inattention:
+   - Difficulty sustaining attention
+   - Careless mistakes
+   - Difficulty organizing tasks
+   - Forgetfulness
+   - Easily distracted
+
+2. Hyperactivity / Impulsivity:
+   - Excessive movement or fidgeting
+   - Difficulty remaining seated
+   - Talking excessively
+   - Interrupting others
+   - Difficulty waiting turn
+
+DSM-5-TR CRITERIA SUMMARY:
+- Several symptoms must be present before age 12
+- Symptoms must be present in two or more settings (e.g., home and school/work)
+- Symptoms must cause clear functional impairment
+- Symptoms are not better explained by another mental disorder
+
+SUBTYPES:
+- Predominantly Inattentive Presentation
+- Predominantly Hyperactive/Impulsive Presentation
+- Combined Presentation
+
+--------------------------------------------------
+ANXIETY DISORDERS (GENERALIZED ANXIETY FOCUS)
+--------------------------------------------------
+
+Anxiety disorders involve excessive fear, worry, or avoidance behaviors that are disproportionate
+to actual threat and interfere with daily functioning.
+
+GENERALIZED ANXIETY FEATURES:
+- Excessive worry occurring more days than not
+- Difficulty controlling worry
+- Associated symptoms such as restlessness, fatigue, irritability, muscle tension, or sleep disturbance
+- Worry is persistent and difficult to dismiss
+
+IMPAIRMENT:
+- Anxiety must cause distress or interfere with social, occupational, or daily functioning
+
+--------------------------------------------------
+DEPRESSIVE DISORDERS
+--------------------------------------------------
+
+Depressive disorders involve persistent disturbances in mood, motivation, and cognitive functioning.
+
+CORE FEATURES:
+- Persistent low mood or loss of interest/pleasure
+- Changes in sleep, appetite, or energy
+- Feelings of worthlessness or guilt
+- Difficulty concentrating
+- Psychomotor changes
+- Thoughts of death or self-harm
+
+DURATION:
+- Symptoms typically persist for at least two weeks
+
+SEVERITY:
+- Severity is determined by symptom count, intensity, and level of functional impairment
+
+IMPORTANT SAFETY NOTE:
+- Any expression of suicidal thoughts requires immediate professional support
+
+--------------------------------------------------
+AUTISM SPECTRUM DISORDER (ASD)
+--------------------------------------------------
+
+Autism Spectrum Disorder is a neurodevelopmental condition characterized by differences in social
+communication and restricted or repetitive patterns of behavior, interests, or activities.
+
+CORE DOMAINS:
+1. Social Communication and Interaction:
+   - Differences in social reciprocity
+   - Difficulty interpreting social cues
+   - Differences in nonverbal communication
+   - Challenges developing or maintaining relationships
+
+2. Restricted and Repetitive Patterns:
+   - Repetitive behaviors or speech
+   - Strong preference for routines
+   - Intense or focused interests
+   - Sensory sensitivities
+
+DEVELOPMENTAL CONTEXT:
+- Traits are typically present from early development
+- Presentation varies widely across individuals
+
+NEURODIVERSITY NOTE:
+- Autism represents a natural variation in human neurodevelopment
+- Traits may be associated with both challenges and strengths
+- Support needs vary by individual and environment
+
+--------------------------------------------------
+IMPORTANT CLINICAL NOTES
+--------------------------------------------------
+
+- Screening tools identify patterns of traits or symptoms, not diagnoses
+- Diagnosis requires comprehensive evaluation by qualified professionals
+- Cultural, developmental, and contextual factors must be considered
+- Comorbidity between conditions is common (e.g., ADHD and anxiety)
+
+
+
+### Summary of DSM-5-TR Content and Structure
+
+The **Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)**, published by the American Psychiatric Association in 2022, represents a comprehensive update to DSM-5 (2013) integrating **scientific advances, previous online updates, and text clarifications**. It emphasizes clinical utility, cultural competence, and incorporates a dimensional approach alongside the traditional categorical classification.
+
+---
+
+### Key Features and Organizational Principles
+
+- **DSM-5-TR** includes **updated diagnostic criteria** for over 70 disorders, with **new diagnoses** such as **prolonged grief disorder** and symptom codes for suicidal and nonsuicidal self-injurious behavior.
+- The manual aligns with the **ICD-10-CM coding system** for diagnostic consistency and facilitates international harmonization, though full criteria harmonization with ICD-11 is *ongoing*.
+- Disorders are organized developmentally, beginning with those manifesting early in life (e.g., neurodevelopmental disorders) and concluding with disorders prevalent in later adulthood (e.g., neurocognitive disorders).
+- The manual integrates **cultural, sex- and gender-related diagnostic issues**, and for the first time, a **Work Group on Ethnoracial Equity and Inclusion** reviewed the text to ensure nonstigmatizing language and attention to systemic factors like racism.
+- **Dimensional and categorical approaches** coexist: DSM-5-TR remains primarily categorical, but it includes **dimensional measures** (e.g., symptom severity, cross-cutting symptom measures) to capture heterogeneity and subthreshold symptoms.
+
+---
+
+### Revision and Development Process
+
+- DSM-5-TR is the product of a **multi-stage revision process**: original DSM-5 Task Force development (2013), iterative online updates overseen by the DSM Steering Committee, and the current text revision by a large Revision Subcommittee.
+- The revision was supported by **extensive expert input** from over 200 field experts across disciplines and geographic locations.
+- **DSM-5 field trials** tested reliability and clinical utility in diverse settings, leading to refinement of criteria and text.
+
+---
+
+### Structure and Contents
+
+**Section I**: DSM-5 Basics—purpose, use, history, conceptual frameworks, and codes.
+
+**Section II**: Diagnostic Criteria and Codes—official diagnostic criteria for disorders, organized by chapters:
+
+- Neurodevelopmental Disorders (e.g., Intellectual Developmental Disorder, Autism Spectrum Disorder, ADHD)
+- Schizophrenia Spectrum and Other Psychotic Disorders (e.g., Schizophrenia, Delusional Disorder)
+- Bipolar and Related Disorders
+- Depressive Disorders
+- Anxiety Disorders
+- Obsessive-Compulsive and Related Disorders (e.g., OCD, Body Dysmorphic Disorder, Hoarding Disorder)
+- Trauma- and Stressor-Related Disorders (e.g., PTSD, Acute Stress Disorder, Prolonged Grief Disorder)
+- Dissociative Disorders
+- Somatic Symptom and Related Disorders
+- Feeding and Eating Disorders (e.g., Anorexia Nervosa, Bulimia Nervosa, Binge-Eating Disorder)
+- Elimination Disorders (e.g., Enuresis, Encopresis)
+- Sleep-Wake Disorders (e.g., Insomnia Disorder, Narcolepsy, Breathing-Related Sleep Disorders)
+- Sexual Dysfunctions (e.g., Erectile Disorder, Female Sexual Interest/Arousal Disorder)
+- Gender Dysphoria
+- Disruptive, Impulse-Control, and Conduct Disorders (e.g., Oppositional Defiant Disorder, Conduct Disorder)
+- Substance-Related and Addictive Disorders (e.g., Alcohol Use Disorder, Cannabis Use Disorder)
+- Neurocognitive Disorders (e.g., Major and Mild Neurocognitive Disorders Due to Alzheimer’s Disease, Vascular Disease)
+- Personality Disorders (e.g., Borderline, Narcissistic, Avoidant)
+- Paraphilic Disorders (e.g., Voyeuristic, Exhibitionistic, Pedophilic)
+- Other Mental Disorders and Additional Codes (includes medication-induced movement disorders, suicidal behavior, abuse and neglect, psychosocial problems)
+
+**Section III**: Emerging Measures and Models
+
+- **Assessment Measures**: Level 1 Cross-Cutting Symptom Measures for adults and children, Clinician-Rated Dimensions of Psychosis Symptom Severity, and WHO Disability Assessment Schedule (WHODAS 2.0)
+- **Culture and Psychiatric Diagnosis**: Definitions of culture, race, ethnicity; cultural formulation interview protocols; cultural concepts of distress (idioms, explanations, syndromes), with examples (e.g., ataque de nervios, dhat syndrome)
+- **Alternative DSM-5 Model for Personality Disorders**: Dimensional-hybrid model based on personality functioning impairments and pathological personality traits
+- **Conditions for Further Study**: Proposed criteria for research on new or debated diagnoses, including attenuated psychosis syndrome, depressive episodes with short-duration hypomania, caffeine use disorder, internet gaming disorder, neurobehavioral disorder associated with prenatal alcohol exposure, suicidal behavior disorder, nonsuicidal self-injury disorder
+
+---
+
+### Quantitative Data and Tables
+
+| **Neurodevelopmental Disorders**                | Page |
+|------------------------------------------------|-------|
+| Intellectual Developmental Disorder (IDD)      | 37    |
+| Autism Spectrum Disorder (ASD)                  | 56    |
+| ADHD                                           | 68    |
+| Specific Learning Disorder                      | 76    |
+| Tic Disorders                                  | 93    |
+
+| **Bipolar and Related Disorders**               | Page |
+|-------------------------------------------------|-------|
+| Bipolar I Disorder                              | 139   |
+| Bipolar II Disorder                             | 150   |
+| Cyclothymic Disorder                            | 159   |
+
+| **Depressive Disorders**                         | Page |
+|-------------------------------------------------|-------|
+| Major Depressive Disorder                        | 183   |
+| Persistent Depressive Disorder                   | 193   |
+| Disruptive Mood Dysregulation Disorder          | 178   |
+| Premenstrual Dysphoric Disorder                  | 197   |
+
+| **Anxiety Disorders**                            | Page |
+|-------------------------------------------------|-------|
+| Generalized Anxiety Disorder                     | 250   |
+| Panic Disorder                                  | 235   |
+| Social Anxiety Disorder                         | 229   |
+| Specific Phobia                                 | 224   |
+
+| **Obsessive-Compulsive and Related Disorders**  | Page |
+|-------------------------------------------------|-------|
+| Obsessive-Compulsive Disorder                    | 265   |
+| Body Dysmorphic Disorder                         | 271   |
+| Hoarding Disorder                               | 277   |
+| Trichotillomania                               | 281   |
+
+---
+
+### Key Insights
+
+- **DSM-5-TR reflects a dynamic, evolving manual aimed at improving clinical utility, incorporating dimensional approaches and cultural competence.**
+- **Disorders are systematically organized by developmental timeline and symptom similarity, harmonized with ICD coding.**
+- **The manual includes detailed diagnostic criteria, specifiers, and cross-cutting assessment measures to capture symptom severity and heterogeneity.**
+- **Cultural formulation and understanding of cultural concepts of distress are integral to accurate diagnosis and treatment planning.**
+- **Emerging conditions with provisional criteria are included to stimulate research and eventual integration into future editions.**
+- **Substance-related disorders are comprehensively detailed by substance class, including substance-induced mental disorders.**
+- **Neurocognitive disorders are classified by etiology, with detailed subtypes and recognition of mixed pathology.**
+- **Personality disorders retain categorical classification in Section II but also include a dimensional alternative in Section III.**
+- **Additional codes cover psychiatric conditions associated with medical or psychosocial problems, medication-induced movement disorders, and related clinical concerns.**
+
+---
+
+### Bulleted Overview of DSM-5-TR Functional Components
+
+- **Cross-Cutting Symptom Measures**: Level 1 screening for 13 domains; Level 2 detailed assessment for selected domains
+- **Clinician-Rated Dimensions of Psychosis Symptom Severity**
+- **WHO Disability Assessment Schedule (WHODAS 2.0)**: 36-item self/informant-rated disability scale
+- **Cultural Formulation Interview (CFI)**: Core, informant, and supplementary modules to assess cultural identity, explanation, stressors, coping, and clinical relationship
+- **Alternative DSM-5 Personality Model**: Impairment in personality functioning (identity, self-direction, empathy, intimacy) and five pathological trait domains (negative affectivity, detachment, antagonism, disinhibition, psychoticism)
+- **Conditions for Further Study**: Criteria for attenuated psychosis syndrome, depressive episodes with short-duration hypomania, caffeine use disorder, internet gaming disorder, neurobehavioral disorder associated with prenatal alcohol exposure, suicidal behavior disorder, nonsuicidal self-injury disorder
+
+---
+
+This summary is strictly grounded in the provided DSM-5-TR source content and reflects its scope, structure, and key information.
+
+END OF REFERENCE

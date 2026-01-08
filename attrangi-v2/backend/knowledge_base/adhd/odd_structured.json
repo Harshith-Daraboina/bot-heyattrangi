@@ -1,0 +1,24 @@
+{
+  "scale": "Vanderbilt ODD Screen",
+  "response_scale": {
+    "0": "Never",
+    "1": "Occasionally",
+    "2": "Often",
+    "3": "Very Often"
+  },
+  "items": [
+    { "id": 19, "text": "Argues with adults" },
+    { "id": 20, "text": "Loses temper" },
+    { "id": 21, "text": "Actively defies rules" },
+    { "id": 22, "text": "Deliberately annoys others" },
+    { "id": 23, "text": "Blames others for mistakes" },
+    { "id": 24, "text": "Is touchy or easily annoyed" },
+    { "id": 25, "text": "Is angry or resentful" },
+    { "id": 26, "text": "Is spiteful or vindictive" }
+  ],
+  "screening_rule": {
+    "positive_threshold": 2,
+    "required_positive_items": 4
+  },
+  "note": "Screens for oppositional behavior patterns; not diagnostic."
+}

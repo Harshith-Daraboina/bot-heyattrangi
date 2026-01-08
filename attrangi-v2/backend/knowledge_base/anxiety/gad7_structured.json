@@ -1,0 +1,66 @@
+{
+  "scale": "GAD-7 (Generalized Anxiety Disorder)",
+  "timeframe": "Over the last 2 weeks",
+  "response_scale": {
+    "0": "Not at all",
+    "1": "Several days",
+    "2": "More than half the days",
+    "3": "Nearly every day"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Feeling nervous, anxious, or on edge"
+    },
+    {
+      "id": 2,
+      "text": "Not being able to stop or control worrying"
+    },
+    {
+      "id": 3,
+      "text": "Worrying too much about different things"
+    },
+    {
+      "id": 4,
+      "text": "Trouble relaxing"
+    },
+    {
+      "id": 5,
+      "text": "Being so restless that it is hard to sit still"
+    },
+    {
+      "id": 6,
+      "text": "Becoming easily annoyed or irritable"
+    },
+    {
+      "id": 7,
+      "text": "Feeling afraid as if something awful might happen"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "range": [
+      0,
+      21
+    ]
+  },
+  "severity_cutoffs": {
+    "minimal": [
+      0,
+      4
+    ],
+    "mild": [
+      5,
+      9
+    ],
+    "moderate": [
+      10,
+      14
+    ],
+    "severe": [
+      15,
+      21
+    ]
+  },
+  "disclaimer": "This is a screening tool only and not a diagnostic instrument."
+}

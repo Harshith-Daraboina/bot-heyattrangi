@@ -1,0 +1,120 @@
+{
+  "scale": "Vanderbilt ADHD Assessment Scale",
+  "response_scale": {
+    "0": "Never",
+    "1": "Occasionally",
+    "2": "Often",
+    "3": "Very Often"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Does not pay attention to details or makes careless mistakes",
+      "domain": "inattention"
+    },
+    {
+      "id": 2,
+      "text": "Has difficulty keeping attention to what needs to be done",
+      "domain": "inattention"
+    },
+    {
+      "id": 3,
+      "text": "Does not seem to listen when spoken to directly",
+      "domain": "inattention"
+    },
+    {
+      "id": 4,
+      "text": "Does not follow through on instructions or fails to finish activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 5,
+      "text": "Has difficulty organizing tasks and activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 6,
+      "text": "Avoids or dislikes tasks requiring sustained mental effort",
+      "domain": "inattention"
+    },
+    {
+      "id": 7,
+      "text": "Loses things necessary for tasks or activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 8,
+      "text": "Is easily distracted by noises or other stimuli",
+      "domain": "inattention"
+    },
+    {
+      "id": 9,
+      "text": "Is forgetful in daily activities",
+      "domain": "inattention"
+    },
+    {
+      "id": 10,
+      "text": "Fidgets with hands or feet or squirms in seat",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 11,
+      "text": "Leaves seat when remaining seated is expected",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 12,
+      "text": "Runs about or climbs excessively in inappropriate situations",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 13,
+      "text": "Has difficulty playing or engaging in quiet activities",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 14,
+      "text": "Is on the go or acts as if driven by a motor",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 15,
+      "text": "Talks excessively",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 16,
+      "text": "Blurts out answers before questions have been completed",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 17,
+      "text": "Has difficulty waiting their turn",
+      "domain": "hyperactivity"
+    },
+    {
+      "id": 18,
+      "text": "Interrupts or intrudes on others’ conversations or activities",
+      "domain": "hyperactivity"
+    }
+  ],
+  "scoring": {
+    "method": "symptom_count",
+    "threshold": 2
+  },
+  "severity_cutoffs": {
+    "low": [
+      0,
+      3
+    ],
+    "moderate": [
+      4,
+      5
+    ],
+    "high": [
+      6,
+      18
+    ]
+  },
+  "disclaimer": "Screening tool only. Not a diagnosis."
+}

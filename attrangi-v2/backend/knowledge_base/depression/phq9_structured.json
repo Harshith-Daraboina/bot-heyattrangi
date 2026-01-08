@@ -1,0 +1,79 @@
+{
+  "scale": "PHQ-9 (Depression)",
+  "timeframe": "Over the last 2 weeks",
+  "response_scale": {
+    "0": "Not at all",
+    "1": "Several days",
+    "2": "More than half the days",
+    "3": "Nearly every day"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Little interest or pleasure in doing things"
+    },
+    {
+      "id": 2,
+      "text": "Feeling down, depressed, or hopeless"
+    },
+    {
+      "id": 3,
+      "text": "Trouble falling or staying asleep, or sleeping too much"
+    },
+    {
+      "id": 4,
+      "text": "Feeling tired or having little energy"
+    },
+    {
+      "id": 5,
+      "text": "Poor appetite or overeating"
+    },
+    {
+      "id": 6,
+      "text": "Feeling bad about yourself or that you are a failure"
+    },
+    {
+      "id": 7,
+      "text": "Trouble concentrating on things"
+    },
+    {
+      "id": 8,
+      "text": "Moving or speaking slowly or being fidgety or restless"
+    },
+    {
+      "id": 9,
+      "text": "Thoughts that you would be better off dead or of hurting yourself"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "range": [
+      0,
+      27
+    ]
+  },
+  "severity_cutoffs": {
+    "minimal": [
+      0,
+      4
+    ],
+    "mild": [
+      5,
+      9
+    ],
+    "moderate": [
+      10,
+      14
+    ],
+    "moderately_severe": [
+      15,
+      19
+    ],
+    "severe": [
+      20,
+      27
+    ]
+  },
+  "safety_note": "Any non-zero response to item 9 should prompt immediate support guidance.",
+  "disclaimer": "This is a screening tool only and not a diagnostic instrument."
+}
