@@ -15,11 +15,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Create directories for data and cache
-RUN mkdir -p vector_store data .nicegui
+RUN mkdir -p vector_store data .nicegui .cache
 
 # Set permissions (Hugging Face runs as user 1000 but sometimes overrides group)
 # We set 777 to ensure the app can write regardless of the user ID running it
-RUN chmod -R 777 vector_store data .nicegui
+RUN chmod -R 777 vector_store data .nicegui .cache
 
 # Create user but we've already opened up permissions
 RUN useradd -m -u 1000 user
